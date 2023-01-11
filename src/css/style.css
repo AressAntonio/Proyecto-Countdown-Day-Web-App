@@ -1,0 +1,115 @@
+body{
+	font-family: sans-serif;
+	width: 100%;
+	height: auto;
+
+	background: linear-gradient(to left, white, #ccc);
+}
+
+.app{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+form{
+
+	background-color: white;
+	border-radius: 12px;
+	border: solid 2px skyblue;
+	padding: 20px;
+	width: 300px;
+	margin-left: 15px;
+	position: fixed;
+}
+
+button{
+	border: none;
+	background-color: red;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+.form input{
+	margin: 5px 0;
+	padding: 5px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+
+	border-radius: 10px;
+	background-color: none;
+	border: solid 2px skyblue;
+}
+
+input[type='submit']{
+	border: none;
+	background-color: #1860a8;
+	color: white;
+	padding: 9px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+#eventsContainer{
+	background-color: white;
+	border-radius: 10px;
+	border: double 8px skyblue;
+	padding: 10px;
+	width: 450px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+
+	margin-top: 165px;
+	*z-index: 2;
+}
+
+.event{
+	border: solid 1px #ccc;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.event:hover{
+	border: dotted 2px #1860a8;
+	cursor: pointer;
+}
+
+.event .days{
+	text-align: center;
+	width: 100px;
+}
+
+.event .days .days-number{
+	font-size: 25px;
+	font-weight: bold;
+	display: block;
+}
+
+.event .event-name{
+	padding: 10px;
+	width: 200px;
+}
+
+.event .event-date{
+	padding: 10px;
+	width: 150px;
+	font-size: 17px;
+	color: #ccc;
+}
+.event .event-date:hover{
+	color: lightgreen;
+	transform: scale(1.1);
+}
+
+.event .actions{
+	padding: 10px;
+}
