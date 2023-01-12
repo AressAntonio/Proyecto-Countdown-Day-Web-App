@@ -16,6 +16,8 @@
 	<ol>Abrir script index.html con navegador de su eleccion.</ol>
 </ul><br>
 
+<hr width="250"><a href="https://aressantonio.github.io/Proyecto-Countdown-Day-Web-App/">Visitar sitió</a><hr width="250">
+
 <table>
 	<tr>
 		<th>Vista previa.</th>
